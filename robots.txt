@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://chenxuexin.com/sitemap.xml
-Host: https://chenxuexin.com
+Sitemap: https://yihong.run/sitemap.xml
+Host: https://yihong.run
