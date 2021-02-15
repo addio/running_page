@@ -48,8 +48,8 @@ export {
 export const AVATAR =
   'https://avatars.githubusercontent.com/u/482437'; // Temp avatar
 export const NAVS = [
-  { text: 'Blog', link: 'https://github.com/addio/running_page' },
-  { text: 'About', link: 'https://github.com/addio/running_page' },
+  { text: 'Source Code', link: 'https://github.com/addio/running_page' },
+  { text: 'About', link: 'https://github.com/addio' },
 ];
 
 const nike = 'rgb(224,237,94)';
