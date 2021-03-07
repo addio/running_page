@@ -45,10 +45,10 @@ export {
 };
 
 export const AVATAR =
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU'; // Temp avatar
+  'https://avatars.githubusercontent.com/u/482437'; // Temp avatar
 export const NAVS = [
-  { text: 'Blog', link: 'https://github.com/yihong0618/running_page' },
-  { text: 'About', link: 'https://github.com/yihong0618/running_page' },
+  { text: '博客', link: 'https://addio.github.io/' },
+  { text: '源码', link: 'https://github.com/addio/running_page' },
 ];
 
 const nike = 'rgb(224,237,94)';
