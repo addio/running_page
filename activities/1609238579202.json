@@ -1,0 +1,240 @@
+{
+    "id": "025878a3-de43-44c5-941f-f05b2613a594",
+    "type": "run",
+    "app_id": "com.nike.sport.running.droid",
+    "start_epoch_ms": 1609238557000,
+    "end_epoch_ms": 1609238579202,
+    "last_modified": 1609238580843,
+    "active_duration_ms": 18000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "steps",
+            "summary": "total",
+            "source": "com.nike.running.android.fullpower",
+            "app_id": "com.nike.sport.running.droid",
+            "value": 17
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "com.nike.running.android.fullpower",
+            "app_id": "com.nike.sport.running.droid",
+            "value": 26.888398429515377
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "com.nike.running.android.fullpower",
+            "app_id": "com.nike.sport.running.droid",
+            "value": 1.584
+        },
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "com.nike.running.android.fullpower",
+            "app_id": "com.nike.sport.running.droid",
+            "value": 0.021419999999999998
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "com.nike.running.android.fullpower",
+            "app_id": "com.nike.sport.running.droid",
+            "value": 8.066519528854613
+        },
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "com.nike.running.android.fullpower",
+            "app_id": "com.nike.sport.running.droid",
+            "value": 4.284
+        },
+        {
+            "metric": "pace",
+            "summary": "mean",
+            "source": "com.nike.running.android.fullpower",
+            "app_id": "com.nike.sport.running.droid",
+            "value": 14.005602240896359
+        }
+    ],
+    "sources": [
+        "com.nike.pacecalculator.v1",
+        "com.nike.running.android.fullpower"
+    ],
+    "tags": {
+        "com_nike_name": "\u661f\u671f\u4e8c \u665a\u95f4\u8dd1",
+        "com_nike_running_goaltype": "basic",
+        "location": "outdoors"
+    },
+    "change_tokens": [
+        "5c33232e7ffbecd7f61a74cc4f2261958cee4cc89060b0e49c46f34c6064a9c3:1609238580843"
+    ],
+    "metric_types": [
+        "elevation",
+        "distance",
+        "pace",
+        "calories",
+        "steps",
+        "speed",
+        "nikefuel"
+    ],
+    "metrics": [
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "com.nike.running.android.fullpower",
+            "appId": "com.nike.sport.running.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1609238570473,
+                    "end_epoch_ms": 1609238575657,
+                    "value": 0.021419999999999998
+                }
+            ]
+        },
+        {
+            "type": "steps",
+            "unit": "STEP",
+            "source": "com.nike.running.android.fullpower",
+            "appId": "com.nike.sport.running.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1609238570473,
+                    "end_epoch_ms": 1609238575657,
+                    "value": 17
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "com.nike.running.android.fullpower",
+            "appId": "com.nike.sport.running.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1609238557126,
+                    "end_epoch_ms": 1609238557126,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1609238557132,
+                    "end_epoch_ms": 1609238557132,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1609238567129,
+                    "end_epoch_ms": 1609238567129,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1609238570473,
+                    "end_epoch_ms": 1609238570473,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1609238575657,
+                    "end_epoch_ms": 1609238575657,
+                    "value": 11.237414839242339
+                },
+                {
+                    "start_epoch_ms": 1609238579202,
+                    "end_epoch_ms": 1609238579202,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "com.nike.running.android.fullpower",
+            "appId": "com.nike.sport.running.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1609238557000,
+                    "end_epoch_ms": 1609238567000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1609238567001,
+                    "end_epoch_ms": 1609238570000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1609238570001,
+                    "end_epoch_ms": 1609238575000,
+                    "value": 4.0332597644273065
+                },
+                {
+                    "start_epoch_ms": 1609238575001,
+                    "end_epoch_ms": 1609238579000,
+                    "value": 4.0332597644273065
+                }
+            ]
+        },
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "com.nike.running.android.fullpower",
+            "appId": "com.nike.sport.running.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1609238570473,
+                    "end_epoch_ms": 1609238575657,
+                    "value": 1.584
+                }
+            ]
+        },
+        {
+            "type": "elevation",
+            "unit": "M",
+            "source": "com.nike.running.android.fullpower",
+            "appId": "com.nike.sport.running.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1609238567129,
+                    "end_epoch_ms": 1609238567129,
+                    "value": 0.041747283190488815
+                },
+                {
+                    "start_epoch_ms": 1609238570473,
+                    "end_epoch_ms": 1609238570473,
+                    "value": 0.41980814933776855
+                },
+                {
+                    "start_epoch_ms": 1609238575657,
+                    "end_epoch_ms": 1609238575657,
+                    "value": 0.41980814933776855
+                },
+                {
+                    "start_epoch_ms": 1609238579202,
+                    "end_epoch_ms": 1609238579202,
+                    "value": 0.41980814933776855
+                }
+            ]
+        },
+        {
+            "type": "pace",
+            "unit": "MKM",
+            "source": "com.nike.pacecalculator.v1",
+            "appId": "com.nike.sport.running.droid",
+            "values": [
+                {
+                    "start_epoch_ms": 1609238575657,
+                    "end_epoch_ms": 1609238575657,
+                    "value": 5.3393063136259
+                }
+            ]
+        }
+    ],
+    "moments": [
+        {
+            "key": "halt",
+            "value": "pause",
+            "timestamp": 1609238575657,
+            "app_id": "com.nike.sport.running.droid",
+            "source": "com.nike.running.android.fullpower"
+        }
+    ]
+}
